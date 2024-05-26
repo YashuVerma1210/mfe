@@ -4,7 +4,7 @@ name: deploy-container
     branches:
       - master
     paths:
-      - packages/container/**
+      - "packages/container/**"
 defaults:
   run:
     working-directory: packages/container
